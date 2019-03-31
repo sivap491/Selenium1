@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.login.loginTestCases]">
+  <test name="TestNG All Modules(failed)">
+    <classes>
+      <class name="com.login.loginTestCases.loginTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.login.loginTestCases.loginTest -->
+    </classes>
+  </test> <!-- TestNG All Modules(failed) -->
+</suite> <!-- Failed suite [com.login.loginTestCases] -->
